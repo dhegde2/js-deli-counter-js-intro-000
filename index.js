@@ -5,7 +5,7 @@ let a = n + 1
 return 'Welcome, ' + name + '. You are number ' + a + ' in line.';
 }
 function nowServing(array){
-if(katzDeliLine.length==0){
+if(array.length==0){
 return 'There is nobody waiting to be served!';
 } else {
   return 'Currently serving ' + array[0] + '.';
